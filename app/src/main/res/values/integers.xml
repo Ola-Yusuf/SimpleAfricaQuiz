@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--60000 is 60 seconds + 1 seconds overhead/extra time-->
+    <integer name="durationOfQuizInMillisec">61000</integer>
+</resources>

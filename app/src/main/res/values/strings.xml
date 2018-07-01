@@ -1,0 +1,135 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Simple Africa Quiz</string>
+
+    <string name="instruction">INSTRUCTION: "\n\t"
+        1. You have 1 minute for 10 Questions."\n\t"
+        2. In order To Submit, You Must Either;"\n\t\t\t\t"
+           (a) Answer All Question or "\n\t\t\t\t"
+           (b) Wait Till The Time End."\n\t"
+        3. Username must be is 5 to 9 Letters.
+    </string>
+
+    <string name="userNameValues">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="userNameErrorToast">Username Must be"\n"Minimum of 5 letters"\n"Maximum of 8 letters.</string>
+
+    <string name="greetingUser">Hello,
+        <xliff:g example="yusuf" id="userName"> %s</xliff:g>
+    </string>
+
+    <string name="logoImageDesciption"> Africa </string>
+
+    <string name="time"> Time  </string>
+
+    <string name="timeUpToast"> Time Up  </string>
+
+    <string name="submitQuizButton"> SUBMIT </string>
+
+    <string name="unansweredQuestionToastMessage">Please, Answer Question
+        <xliff:g example="1" id="qNumber"> %d</xliff:g> "\n"There is Still Time.
+    </string>
+
+    <string name="quizEditTextHint">Enter Your Answer</string>
+
+    <string name="userNameEditTextHint">Enter Your UserName</string>
+
+    <string name="question_1">Q1."\n"Which of the following africa countries have CFA franc as its currency</string>
+    <string name="checkBoxOptionForQuestion1_1">Togo</string>
+    <string name="checkBoxOptionForQuestion1_2">Gambia</string>
+    <string name="checkBoxOptionForQuestion1_3">Sudan</string>
+    <string name="checkBoxOptionForQuestion1_4">Benin</string>
+
+    <string-array name="answersForQuestion_1">
+        <item>Togo</item>
+        <item>Benin</item>
+    </string-array>
+
+    <string name="question_2">Q2."\n"Afrikaans is a variety of which European language?</string>
+
+    <string name="answerForQuestion_2">Dutch</string>
+
+    <string name="question_3">Q3."\n"From which European country did Angola achieve independence in 1975?</string>
+    <string name="radioGroupOptionForQuestion3_1">Argentina</string>
+    <string name="radioGroupOptionForQuestion3_2">France</string>
+    <string name="radioGroupOptionForQuestion3_3">Rwanda</string>
+    <string name="radioGroupOptionForQuestion3_4">Portugal</string>
+
+    <string name="answerForQuestion_3">Portugal</string>
+
+    <string name="question_4">Q4."\n"Which country includes the Yoruba, Ibo, and Hausa-Fulani peoples?</string>
+
+    <string name="answerForQuestion_4">Nigeria</string>
+
+    <string name="question_5">Q5."\n"What is the capital of Kenya?</string>
+
+    <string name="answerForQuestion_5">Nairobi</string>
+
+    <string name="question_6">Q6."\n"What does ANC stand for?</string>
+    <string name="radioGroupOptionForQuestion6_1">African National Congress</string>
+    <string name="radioGroupOptionForQuestion6_2">All National Congress</string>
+    <string name="radioGroupOptionForQuestion6_3">African Native Congress</string>
+    <string name="radioGroupOptionForQuestion6_4">African National Communication</string>
+
+    <string name="answerForQuestion_6">African National Congress</string>
+
+
+    <string name="question_7">Q7."\n"Which is the following rivers are in Africa?</string>
+    <string name="checkBoxOptionForQuestion7_1">Orange</string>
+    <string name="checkBoxOptionForQuestion7_2">Limpopo</string>
+    <string name="checkBoxOptionForQuestion7_3">Nile</string>
+    <string name="checkBoxOptionForQuestion7_4">Continental</string>
+
+    <string-array name="answersForQuestion_7">
+        <item>Orange</item>
+        <item>Limpopo</item>
+        <item>Nile</item>
+    </string-array>
+
+    <string name="question_8">Q8."\n"What is Africa largest country?</string>
+
+    <string name="answerForQuestion_8">Sudan</string>
+
+
+    <string name="question_9">Q9."\n"Ikokore is a famous food among Ijebu people in</string>
+    <string name="radioGroupOptionForQuestion9_1">South Africa</string>
+    <string name="radioGroupOptionForQuestion9_2">Nigeria</string>
+    <string name="radioGroupOptionForQuestion9_3">Rwanda</string>
+    <string name="radioGroupOptionForQuestion9_4">Congo</string>
+
+    <string name="answerForQuestion_9">Nigeria</string>
+
+
+    <string name="question_10">Q10."\n"Which country is the Giant of Africa?</string>
+
+    <string name="answerForQuestion_10">Nigeria</string>
+
+    <string name="quizSubmissionButtonText">SUBMIT</string>
+
+    <string name="selectActionText">SELECT ACTION</string>
+
+    <string name="showResultButtonText">Show Result</string>
+
+    <string name="tryAgainButtonText">Try Again</string>
+
+    <string name="correctionButtonText">Correction</string>
+
+    <string name="loginButtonText">LOGIN</string>
+
+    <string name="poorPerformance">Poor</string>
+
+    <string name="veryGoodPerformance">Very Good</string>
+
+    <string name="averagePerformance">Average</string>
+
+    <string name="excellentPerformance">Excellent</string>
+
+    <string name="scoreReport">
+        Performance: <xliff:g example="Average" id="performance">%s</xliff:g>
+        "\n"Total Score: <xliff:g example="200.1" id="mark">%2$.1f</xliff:g>%%
+    </string>
+
+    <string name="displayCorrection">
+        CORRECTION TO QUIZ QUESTION"\n\n"<xliff:g example="Correction" id="correction">%s</xliff:g>
+    </string>
+
+</resources>
